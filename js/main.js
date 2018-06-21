@@ -134,8 +134,7 @@ if (num4 < num5 || num4 === num5) {
 
 	console.log("Else statement ran");
 };
-//Else if statement ran
-//WHY??
+//Else if statement ran 
 
 
 var num4 = 5;
@@ -166,7 +165,7 @@ for (var i = 0; i < string1.length; i = i + 1) {
 
 	console.log(i, string1[i]);
 };
-// 0 "t"  1 "h"  2 "i"  3 "s"  4" "  5 "i"       6 "s"  7 " "  8 "a"  9 " "  10 "s"  11 "t"      12 "r"  13 "i"  14 "n"  15 "g"   
+// 0 "t"  1 "h"  2 "i"  3 "s"  4 " "  5 "i" 6 "s"  7 " "  8 "a"  9 " "  10 "s"  11 "t"      12 "r"  13 "i"  14 "n"  15 "g"   
 
 
 var string2 = "coding";
@@ -282,13 +281,13 @@ function countVowels(someString) {
 };
 
 countVowels("I am the very model of a modern major general");
-// i a e e o e o a o e a o e e a
+// 14 (0 "i" a e e o e o a o e a o e e 14 "a")
 
 countVowels("Exeunt pursued by a bear");
-// e e u u u e a e a
+// 8 (0 "e" e u u u e a e 8 "a")
 
 countVowels("o1234567891o");
-// o o
+// 2 (0 "o"  11 "o")
 
 
 
